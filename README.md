@@ -25,9 +25,18 @@ Then we provide some examples of the results.
 
 Let's see a full example:
 
-> Implement a function that, given a number, returns the reversed number.
-> Examples:
+> Implement a function that, given a number, returns the reversed number.\
+> Example 1:
 
-    987       -> 789
-    554956    -> 659455
-    1080      -> 0801
+    Input: 987
+    Output: 789
+
+> Example 2:
+
+    Input: 554956
+    Output: 659455
+
+> Example 3:
+
+    Input: 1080
+    Output: 0801
