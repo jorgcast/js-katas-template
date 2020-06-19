@@ -11,13 +11,13 @@
     "boilerplate"
   ],
   "license": "ISC",
-  "homepage": "https://github.com/jorgcast/katas-template",
+  "homepage": "https://github.com/jorgcast/js-katas-template",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jorgcast/katas-template.git"
+    "url": "https://github.com/jorgcast/js-katas-template.git"
   },
   "bugs": {
-    "url": "https://github.com/jorgcast/katas-template/issues"
+    "url": "https://github.com/jorgcast/js-katas-template/issues"
   },
   "scripts": {
     "test": "mocha --require babel-register -w --watch-files src",
