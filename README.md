@@ -1,6 +1,6 @@
 # js-katas-template
 
-Use this template to create your own katas project.
+Use this template to create your own katas project.\
 This project uses `mocha` for testing and `babel` to use ES Modules in the spec files.
 
 You can add as many katas as you want, just add a new `kata-N.js` file into the `src` folder, and his own `kata-N.spec.js` file into the `test` folder.
@@ -9,9 +9,9 @@ You can add as many katas as you want, just add a new `kata-N.js` file into the 
 
 ## How to test the code
 
-Run `npm install` to install all the project dependencies.
-Run `npm test` to check all the test files.
-Run `npm run test1` to check only the tests with the #kata-1 `describe` section, i.e. kata-1.spec.js file.
+Run `npm install` to install all the project dependencies.\
+Run `npm test` to check all the test files.\
+Run `npm run test1` to check only the tests with the #kata-1 `describe` section, i.e. kata-1.spec.js file.\
 Run `npm run test2` to check only the tests with the #kata-2 `describe` section, i.e. kata-2.spec.js file.
 
 Once running any test command, mocha will watch for changes in the `src` folder.
@@ -20,7 +20,7 @@ If you add more katas to the project and want to test their own test files separ
 
 ## How to define Kata requirements
 
-First of all we define what the objective of the kata is.
+First of all we define what the objective of the kata is.\
 Then we provide some examples of the results.
 
 Let's see a full example:
