@@ -1,9 +1,12 @@
 import assert from 'assert';
 
-describe('Array', function () {
-  describe('#indexOf()', function () {
-    it('should return -1 when the value is not present', function () {
-      assert.equal([1, 2, 3].indexOf(4), -1);
-    });
+import kata1 from '../src/kata-1';
+
+describe('#kata-1', () => {
+  it('should return 0 when nothing is sent', () => {
+    assert.equal(kata1(), 0);
+  });
+  it('should return 5 when the value is 5', () => {
+    assert.equal(kata1(5), 5);
   });
 });

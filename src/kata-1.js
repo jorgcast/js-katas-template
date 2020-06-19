@@ -1,7 +1,6 @@
 
 const kata1 = (value) => {
-  var result = value + " tested";
-  return result;
+  return value;
 };
 
 export default kata1;

@@ -1,25 +1,33 @@
-# js-katas
+# js-katas-template
 
-Se pide implementar las siguientes funciones (katas) siguiendo los siguientes requisitos para cada una de ellas.
+Use this template to create your own katas project.
+This project uses `mocha` for testing and `babel` to use ES Modules in the spec files.
 
-El proyecto incluye los tests unitarios que estas implementaciones deben cumplir.
+You can add as many katas as you want, just add a new `kata-N.js` file into the `src` folder, and his own `kata-N.spec.js` file into the `test` folder.
 
-Las soluciones se deberán subir a un repositorio público github/gitlab.
+**Note:** *The katas and tests here are mere examples. Use this as a template for your own project and add some real katas to it.*
 
-Es necesario disponer de node >= 8.9.4 para ejecutar correctamente el proyecto.
+## How to test the code
 
-## HOW TO
+Run `npm install` to install all the project dependencies.
+Run `npm test` to check all the test files.
+Run `npm run test1` to check only the tests with the #kata-1 `describe` section, i.e. kata-1.spec.js file.
+Run `npm run test2` to check only the tests with the #kata-2 `describe` section, i.e. kata-2.spec.js file.
 
-Ejecutar `make install` para instalar las dependencias del proyecto.
+Once running any test command, mocha will watch for changes in the `src` folder.
 
-Ejecutar `make test` para correr los test unitarios que validen las funciones implementadas.
+If you add more katas to the project and want to test their own test files separately, add a new script in the `package.json` file, following the "test1" script, and adapting it to your test's `describe` section.
 
-### Kata 1
+## How to define Kata requirements
 
-Implementar una función que dado un número entero, retorne otro número formado por sus mismos digitos ordenados descendentemente.
+First of all we define what the objective of the kata is.
+Then we provide some examples of the results.
 
-Ejemplos:
+Let's see a full example:
 
-    - 1234 ---> 4321
-    - 435677 ---> 776543
-    - 2030 ---> 3200
+> Implement a function that, given a number, returns the reversed number
+> Examples:
+
+    987       -> 789
+    554956    -> 659455
+    1080      -> 0801
