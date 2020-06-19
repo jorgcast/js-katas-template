@@ -2,7 +2,7 @@
   "name": "js-katas-template",
   "version": "1.0.0",
   "description": "JS katas boilerplate to create your own JS katas project.",
-  "author": "Jorge Caster",
+  "author": "Jorge Caster <hola@jorge-castano.com>",
   "keywords": [
     "katas",
     "js-katas",

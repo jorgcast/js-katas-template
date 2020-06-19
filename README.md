@@ -25,7 +25,7 @@ Then we provide some examples of the results.
 
 Let's see a full example:
 
-> Implement a function that, given a number, returns the reversed number
+> Implement a function that, given a number, returns the reversed number.
 > Examples:
 
     987       -> 789
